@@ -32,7 +32,7 @@ plugins:
   - jekyll-gist
 
 # Dependencies
-markdown:         redcarpet
+
 highlighter:      pygments
 
 # Permalinks
