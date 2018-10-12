@@ -1,5 +1,5 @@
 ---
-title: "published: false
+title: "Layout: Excerpt (Defined)"
 layout: Excerpt (Defined)"
 published: false
 layout: post

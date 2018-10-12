@@ -1,7 +1,7 @@
 ---
 published: false
 layout: post
-title: "published: false
+title: "Layout: Excerpt (Generated with Separator Tag)"
 layout: Excerpt (Generated with Separator Tag)"
 excerpt_separator: "<!--more-->"
 categories:
