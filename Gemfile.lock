@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     jekyll-theme-hydeout (3.5.1)
-      jekyll (~> 3.4)
+      jekyll (~> 3.6.3)
       jekyll-feed (~> 0.6)
       jekyll-gist (~> 1.4)
       jekyll-paginate (~> 1.1)
@@ -15,7 +15,7 @@ GEM
     colorator (1.1.0)
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
-    ffi (1.9.18)
+    ffi (1.9.24)
     forwardable-extended (2.6.0)
     jekyll (3.6.0)
       addressable (~> 2.4)
