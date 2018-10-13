@@ -1,82 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-13T09:30:33+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Abhay Sibal</title><subtitle>Thinker. Learner. Developer.</subtitle><author><name>Abhay Sibal</name></author><entry><title type="html">Hello Hydeout</title><link href="http://localhost:4000/2017/06/01/hello-hydeout.html" rel="alternate" type="text/html" title="Hello Hydeout" /><published>2017-06-01T00:00:00+05:30</published><updated>2017-06-01T00:00:00+05:30</updated><id>http://localhost:4000/2017/06/01/hello-hydeout</id><content type="html" xml:base="http://localhost:4000/2017/06/01/hello-hydeout.html">&lt;p&gt;Hydeout updates the original &lt;a href=&quot;https://github.com/poole/hyde&quot;&gt;Hyde&lt;/a&gt;
-theme for &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; 3.x and adds new functionality.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-13T10:50:28+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Abhay Sibal</title><subtitle>Thinker. Learner. Developer.</subtitle><author><name>Abhay Sibal</name></author><entry><title type="html">Hello World - From Abhay !</title><link href="http://localhost:4000/2018/10/13/hello-world.html" rel="alternate" type="text/html" title="Hello World - From Abhay !" /><published>2018-10-13T00:00:00+05:30</published><updated>2018-10-13T00:00:00+05:30</updated><id>http://localhost:4000/2018/10/13/hello-world</id><content type="html" xml:base="http://localhost:4000/2018/10/13/hello-world.html">&lt;h2 id=&quot;hello-world&quot;&gt;Hello World&lt;/h2&gt;
 
-&lt;h3 id=&quot;keep-it-simple&quot;&gt;Keep It Simple&lt;/h3&gt;
+&lt;p&gt;Connecting my blog to the vast digital ocean of the World Wide Web!
+I haven’t been a blogger or a notes-for-everything person ever :),  but this blog represents my first push towards organizing and sharing things that I find interesting, things that I feel are worth to spend time, effort and energy to pursue and explore.&lt;/p&gt;
 
-&lt;p&gt;In keeping with the original Hyde theme, Hydeout aims to keep the overall
-design lightweight and plugin-free. JavaScript is currently limited only
-to Disqus and Google Analytics (and is only loaded if you provide configuration
-variables).&lt;/p&gt;
-
-&lt;p&gt;Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
-the CSS degrades into a single column layout.&lt;/p&gt;
-
-&lt;h3 id=&quot;customization&quot;&gt;Customization&lt;/h3&gt;
-
-&lt;p&gt;Hydeout replaces Hyde’s class-based theming with the use
-of the following SASS variables:&lt;/p&gt;
-
-&lt;div class=&quot;language-scss highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$sidebar-bg-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#202020&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$sidebar-fg-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;white&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$sidebar-sticky&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$layout-reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$link-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#268bd2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;To override these variables, create your own &lt;code class=&quot;highlighter-rouge&quot;&gt;assets/css/main.scss&lt;/code&gt; file.
-Define your own variables, then import in Hydeout’s SCSS, like so:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
-# Jekyll needs front matter for SCSS files
----
-
-$sidebar-bg-color: #ac4142;
-$link-color: #ac4142;
-$sidebar-sticky: false;
-@import &quot;hydeout&quot;;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;See the &lt;a href=&quot;https://github.com/fongandrew/hydeout/blob/master/_sass/hydeout/_variables.scss&quot;&gt;_variables&lt;/a&gt; file for other variables
-you can override.&lt;/p&gt;
-
-&lt;p&gt;You can also insert custom head tags (e.g. to load your own stylesheets) by
-defining your own &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes/custom-head.html&lt;/code&gt; or insert tags at the end
-of the body (e.g. for custom JS) by defining your own
-&lt;code class=&quot;highlighter-rouge&quot;&gt;_includes/custom-foot.html&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;new-features&quot;&gt;New Features&lt;/h3&gt;
-
+&lt;h2 id=&quot;about-me&quot;&gt;About me&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Hydeout also adds a new tags page (accessible in the sidebar) and a new
-“category” layout for dedicated category pages.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Category pages are automatically added to the sidebar. All other pages
-must have &lt;code class=&quot;highlighter-rouge&quot;&gt;sidebar_link: true&lt;/code&gt; in their front matter to show up in
-the sidebar.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A simple redirect-to-Google search is available. If you want to use
-Google Custom Search or Algolia or something with more involved,
-override the &lt;code class=&quot;highlighter-rouge&quot;&gt;search.html&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Disqus integration is ready out of the box. Just add the following to
-your config file:&lt;/p&gt;
-
-    &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;disqus&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;shortname&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;my-disqus-shortname&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-
-    &lt;p&gt;If you don’t want Disqus or want to use something else, override
-&lt;code class=&quot;highlighter-rouge&quot;&gt;comments.html&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;For Google Analytics support, define a &lt;code class=&quot;highlighter-rouge&quot;&gt;google_analytics&lt;/code&gt; variable with
-your property ID in your config file.&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;My interests are mostly concentrated around Machine Learning, Natural Language Processing, Digital Image Processing and Software Architecture Design.&lt;/li&gt;
+  &lt;li&gt;I’ve worked on multiple projects that used Deep Learning and ML techniques for Automatic Text Summarization and identifying Network Security Vulnerabilities.&lt;/li&gt;
+  &lt;li&gt;In my profession as a Software Developer I’ve worked on both client side and server side technologies.&lt;/li&gt;
+  &lt;li&gt;I love to code in Python and C++(11/14) (in that order) and have a fair bit of experience of working in Java and SQL.&lt;/li&gt;
+  &lt;li&gt;I’ve worked as a developer at WalmartLabs, Bangalore and right now I am working at Adobe, Noida.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;There’s also a bunch of minor tweaks and adjustments throughout the
-theme. Hope this works for you!&lt;/p&gt;</content><author><name>Abhay Sibal</name></author><summary type="html">Hydeout updates the original Hyde theme for Jekyll 3.x and adds new functionality. Keep It Simple In keeping with the original Hyde theme, Hydeout aims to keep the overall design lightweight and plugin-free. JavaScript is currently limited only to Disqus and Google Analytics (and is only loaded if you provide configuration variables). Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available, the CSS degrades into a single column layout. Customization Hydeout replaces Hyde’s class-based theming with the use of the following SASS variables: $sidebar-bg-color: #202020 !default; $sidebar-fg-color: white !default; $sidebar-sticky: true !default; $layout-reverse: false !default; $link-color: #268bd2 !default; To override these variables, create your own assets/css/main.scss file. Define your own variables, then import in Hydeout’s SCSS, like so: --- # Jekyll needs front matter for SCSS files --- $sidebar-bg-color: #ac4142; $link-color: #ac4142; $sidebar-sticky: false; @import &quot;hydeout&quot;; See the _variables file for other variables you can override. You can also insert custom head tags (e.g. to load your own stylesheets) by defining your own _includes/custom-head.html or insert tags at the end of the body (e.g. for custom JS) by defining your own _includes/custom-foot.html. New Features Hydeout also adds a new tags page (accessible in the sidebar) and a new “category” layout for dedicated category pages. Category pages are automatically added to the sidebar. All other pages must have sidebar_link: true in their front matter to show up in the sidebar. A simple redirect-to-Google search is available. If you want to use Google Custom Search or Algolia or something with more involved, override the search.html. Disqus integration is ready out of the box. Just add the following to your config file: disqus: shortname: my-disqus-shortname If you don’t want Disqus or want to use something else, override comments.html. For Google Analytics support, define a google_analytics variable with your property ID in your config file. There’s also a bunch of minor tweaks and adjustments throughout the theme. Hope this works for you!</summary></entry></feed>
+&lt;h2 id=&quot;about-this-blog&quot;&gt;About this blog&lt;/h2&gt;
+&lt;p&gt;I plan to update this blog regularly about technological developments in the field of Computer Science and my attempts at making something out of them.&lt;/p&gt;</content><author><name>Abhay Sibal</name></author><summary type="html">Hello World Connecting my blog to the vast digital ocean of the World Wide Web! I haven’t been a blogger or a notes-for-everything person ever :), but this blog represents my first push towards organizing and sharing things that I find interesting, things that I feel are worth to spend time, effort and energy to pursue and explore. About me My interests are mostly concentrated around Machine Learning, Natural Language Processing, Digital Image Processing and Software Architecture Design. I’ve worked on multiple projects that used Deep Learning and ML techniques for Automatic Text Summarization and identifying Network Security Vulnerabilities. In my profession as a Software Developer I’ve worked on both client side and server side technologies. I love to code in Python and C++(11/14) (in that order) and have a fair bit of experience of working in Java and SQL. I’ve worked as a developer at WalmartLabs, Bangalore and right now I am working at Adobe, Noida. About this blog I plan to update this blog regularly about technological developments in the field of Computer Science and my attempts at making something out of them.</summary></entry></feed>
