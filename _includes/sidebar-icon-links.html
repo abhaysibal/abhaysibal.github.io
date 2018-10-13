@@ -5,10 +5,13 @@
        href="{{ site.github.repo }}">
       {% include svg/github.svg %}
     </a>
-    <a id="github-download-link"
-       class="icon" title="Download" aria-label="Download"
-       href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">
-      {% include svg/download.svg %}
+  {% endif %}
+
+  {% if site.twitter.username %}
+    <a id="twitter-link"
+       class="icon" title="Twitter" aria-label="Twitter"
+       href="https:twitter.com/{{ site.twitter.username }}">
+      {% include svg/twitter.svg %}
     </a>
   {% endif %}
 
