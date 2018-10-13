@@ -12,6 +12,12 @@
     </a>
   {% endif %}
 
+  {% if site.linkedin.username %}
+  <a id = "linkedin-link" class="icon" title="LinkedIn" aria-lable="LinkedIn" href="https://www.linkedin.com/in/{{ site.linkedin.username }}">
+    {% include svg/linkedin.svg %}
+  </a>
+  {% endif %}
+
   <a id="subscribe-link"
      class="icon" title="Subscribe" aria-label="Subscribe"
      href="{{ site.baseurl }}/feed.xml">
